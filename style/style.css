@@ -8,12 +8,6 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
-img{
-    height: 250px;
-    width: 250px;
-    float: right;
-    margin-top: 11%;
-}
 h1{
     color: white;
 
@@ -22,7 +16,7 @@ h1{
     display: flex;
     font-size: 30pt;
     align-items: center;
-    padding-left: 7%;
+    padding-left: 10%;
 
 }
 .ImcCal {
