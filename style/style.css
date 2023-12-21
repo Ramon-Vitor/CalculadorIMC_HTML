@@ -1,0 +1,92 @@
+html{
+    background-color: rgb(29, 29, 29);
+    font-family: arial;
+}
+header{
+    text-align: center;
+    border-bottom: solid 5px  rgb(63, 63, 63);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-top: 11%;
+}
+h1{
+    color: white;
+
+}
+.conteiner{
+    display: flex;
+    font-size: 30pt;
+    align-items: center;
+    padding-left: 5%;
+
+}
+.ImcCal {
+    background-color: rgb(63, 63, 63);
+    margin-left: 2% ;
+    margin-right: 10%;
+    height: 500px;
+    width: 500px;
+    box-shadow: 20px 6px 15px 0;
+    margin: 4%;
+    display: flex; 
+    flex-direction: column;
+    border-radius: 5% 5% ;
+}
+.Resultado{
+    list-style: none;
+    background-color: rgb(92, 92, 92);
+    margin-left: 2% ;
+    margin-right: 10%;
+    height: 500px;
+    width: 500px;
+    box-shadow: 20px 6px 15px 0;
+    border-radius: 5% 5% ;
+    margin: 4%;
+    text-align: center; 
+ 
+}
+
+input {
+    display: block; 
+    height: 30px;
+    width: 200px;
+
+}
+
+
+.entrada{
+    
+    margin-top: 27px;
+    margin-left: 27%;
+}
+p{
+    margin-top: 20%;
+    color:rgb(0, 0, 0);
+
+}
+@media (max-width: 1044PX) {
+.conteiner{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+}
+}
+button{
+    border: solid gray;
+    background-color: gray;
+    font: white;
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    margin-left: 15% ;
+    margin-top: 25px;
+}
+label{
+    color:rgb(150, 149, 147);   
+}
